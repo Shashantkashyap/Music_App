@@ -18,7 +18,7 @@ dbConnect();
 app.use(express.json());
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://music-app-frontend-addb.onrender.com",
     credentials:true
 }))
 
