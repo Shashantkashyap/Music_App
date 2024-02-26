@@ -25,7 +25,7 @@ function LoginComponent() {
       localStorage.setItem("token",token);
       
       localStorage.setItem("artistId",response.userToreturn._id);
-      navigate("/home");
+      navigate("/");
 
     }
 

@@ -3,7 +3,6 @@ import { makeAuthenticatedGETRequest } from "../utils/serverHelper";
 import Sidebar from "../components/home/Sidebar";
 import Navbar from "../components/home/Navbar";
 import ArtistSongCard from "../components/shared/ArtistSongCard";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 
 function ArtistSongs() {

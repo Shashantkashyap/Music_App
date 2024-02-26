@@ -30,7 +30,7 @@ function Signup() {
       
       localStorage.setItem("artistId",response.userToreturn._id);
       
-      navigate("/home");
+      navigate("/");
 
 
   }

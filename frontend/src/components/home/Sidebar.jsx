@@ -23,7 +23,7 @@ function Home() {
   }
 
   const handleHome = ()=>{
-    navigate("/home")
+    navigate("/")
   }
 
   const handleLibrary = ()=>{
