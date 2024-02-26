@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
-import {useCookies} from "react-cookie"
 import { useNavigate } from "react-router-dom";
 import { makeUnauthenticatedPOSTRequest } from '../utils/serverHelper'
 

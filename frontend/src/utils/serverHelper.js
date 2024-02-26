@@ -1,4 +1,4 @@
-const BASE = "http://localhost:8000"
+const BASE = "https://music-app-backend-q92a.onrender.com"
 
 export const makeUnauthenticatedPOSTRequest = async(route, body) => {
     const response = await fetch(`${BASE}/${route}`,{
